@@ -1,0 +1,36 @@
+body{
+   background-color: green;
+}
+#gameField{
+   background-color: blue;
+   position: relative;
+   display: inline-block;
+   height: 960px;
+   width: 1280px;
+   margin-left: 5px;
+   margin-top: 5px;
+   text-align: center;
+}
+.kubNul{
+   background-color: white;
+   border: 1px solid #EEEED1;
+   height: 8px;
+   width: 8px;
+   margin: 0px;
+   float: left;
+}
+.kube{
+   background-color: gray;
+   border: 1px outset black;
+   height: 8px;
+   width: 8px;
+   margin: 0px;
+   float: left;
+}
+.wall{
+   background-color: black;
+   height: 0px;
+   width: 0px;
+   clear: both;
+}
+
