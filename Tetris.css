@@ -1,15 +1,22 @@
 body{
    background-color: green;
 }
+#form1{
+   background-color: pink;
+   height: 48px;
+   width: 64px;
+   float: left;   
+}
 #gameField{
    background-color: blue;
    position: relative;
    display: inline-block;
-   height: 960px;
-   width: 1280px;
+   height: 480px;
+   width: 640px;
    margin-left: 5px;
    margin-top: 5px;
    text-align: center;
+   float: left;
 }
 .kubNul{
    background-color: white;
