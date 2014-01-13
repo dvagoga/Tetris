@@ -83,9 +83,12 @@ initGameField(tetField.width, tetField.height);
 var point = new onePiece(tetField.height-12);
 document.getElementById(point.getX()).className = 'kube';
 
-var timeCnt = new Date;
+var cnt = 0;
 var win = false;
 
-while(!win){
-   win = true;
-};
+setTimeout(function step(){
+   cnt++;
+   fDown();
+   if (cnt == tetField.width-1) win = true;
+   if (!win)setTimeout(step, 1000)
+}, 1000);
